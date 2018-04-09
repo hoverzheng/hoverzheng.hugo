@@ -1,0 +1,120 @@
+baseurl = "https://hoverzheng.github.io"
+DefaultContentLanguage = "en"
+languageCode = "zh-cn"
+title = "hoverzheng"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+hasCJKLanguage = true
+pygmentsUseClasses = false
+pygmentCodeFences = true
+
+#pygmentsStyle = "trac"
+#pygmentsCodefencesGuessSyntax = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Get busy living or get busy dying!"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/blockchain.jpg"
+  desc = "Blockchain"
+  #src = "img/triangle.jpg"
+  #desc = "Triangle"
+[[Params.bigimg]]
+  #src = "img/sphere.jpg"
+  src = "img/universe.jpg"
+  #desc = "Sphere"
+  desc = "Universe"
+  #position: see values of CSS background-position.
+  position = "center top"
+[[Params.bigimg]]
+  src = "img/kailash.jpg"
+  desc = "冈仁波齐"
+
+[Author]
+  name = "hoverzheng"
+  website = "hoverzheng.github.io"
+  email = "zg_hover@sina.com"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "hoverzheng"
+  #gitlab = "username"
+  #webchat = "justdoit-hover"
+  xing = "justdoit-hover"
+  #stackoverflow = "users/XXXXXXX/username"
+  #telegram = "username"
+
+#Internet Architect
+#Bigdata
+#Blockchain
+#
+
+[[menu.main]]
+    identifier = "TechnologyBlog"
+    name = "Technology Blog"
+    weight = 1
+
+
+[[menu.main]]
+    identifier = "ReadBooks"
+    name = "ReadBooks"
+    weight = 2
+
+
+[[menu.main]]
+    identifier = "Projects" 
+    name = "Projects"
+    weight = 3
+
+[[menu.main]]
+    identifier = "AboutMe" 
+    name = "AboutMe"
+    url = "page/about/"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 5
+
+[[menu.main]]
+    parent = "TechnologyBlog"
+    name = "Architect" 
+    url = "post/technology-blog/architect/"
+    weight = 1
+
+[[menu.main]]
+    parent = "TechnologyBlog"
+    name = "BigData"
+    url = "post/technology-blog/bigdata/"
+    weight = 2
+
+[[menu.main]]
+    parent = "TechnologyBlog"
+    name = "BlockChain"
+    url = "post/technology-blog/blockchain/"
+    weight = 3
+
+
+[[menu.main]]
+    parent = "ReadBooks"
+    name = "Technology" 
+    url = "post/readbooks/technology/"
+    weight = 1
+
+
+[[menu.main]]
+    parent = "ReadBooks"
+    name = "Others" 
+    url = "post/readbooks/others/"
+    weight = 2
